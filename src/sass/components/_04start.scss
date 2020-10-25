@@ -1,0 +1,170 @@
+$back: #1a1a1a;
+$front: #D7D7D7; 
+
+$back: #D7D7D7;
+  $front: #1a1a1a;
+
+html,body,.modal-content{
+  scroll-behavior: smooth;
+  background-color: $back;
+  color: $front;
+}
+.container{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Mono', monospace;
+  // margin: 0 1rem ;
+}
+
+.hero, main{
+  // max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+.close,.close span,button.close ,{
+  font-family: 'Oleo Script Swash Caps', cursive!important;
+  float: right;
+  font-size:2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: $front;
+  background-color: $back;
+  text-shadow: 0 ;
+  opacity: 1;
+}
+#title, {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2rem;
+}
+
+#desc,nav ,#title{
+  text-align: center;
+}
+#secnav{
+  display: none;
+}
+
+ul li a{
+  color: $front;
+}
+a{
+  // text-decoration: none;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2rem;
+}
+a:visited{
+  color: $front;
+}
+
+main{
+ width: 100%;
+//  font-size: .8rem;
+}
+
+.desc2{
+  padding: 1rem;
+  text-indent: 25px;
+  text-align: justify;
+  padding-top: 0;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+footer{
+  // max-width: 900px;
+  min-width: 100%;
+  font-family: 'Roboto Mono', monospace;
+  padding: 0 1rem ;
+  background-color: $front;
+  color: $back;
+  margin:0;
+  padding:0;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+footer p{
+  text-align: center;
+  margin: 0;
+  line-height: 1rem;
+  
+}
+.footicons{
+  // font-size: 2rem;
+}
+// footer img{
+form{
+  margin: auto;
+align-self: center;
+display: flex;
+flex-direction: column;
+}
+
+  form a,#printgoup{
+  color: $back;
+  margin: auto;
+  
+}
+ form a:visited,#printgoup{
+  color: $back;
+}
+
+.desc2 p,nav ul,#title, #webmenu > div.goup > h2,#menu2 > div.printtitle > h2,
+#menu2 > div.goup > h2, .listweb h2{
+  margin: 0;
+}
+nav, main,footer,.container,.headerimg, #desc,footer img,
+footer p,form,.print,.imagecont,.galsection,.galpics{
+  margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 600px) {
+  .container{
+    max-width: 900px;
+    margin: auto ;
+  }
+  .hero{
+    flex-direction: row;
+  }
+  .footcont{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-items: center; 
+  }
+  .footertext{
+    flex-grow: 3;
+  }
+  .image{
+    max-width: 300px;
+    flex-shrink: 1;
+  }
+  #secnav{
+    display: block;
+  }
+  #mainnav{
+    display: none;
+  }
+  .footicons{
+    // margin: 2rem 2rem;
+    align-self: center;
+   }
+   footer{
+    // max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+}

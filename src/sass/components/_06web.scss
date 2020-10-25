@@ -1,0 +1,61 @@
+
+.listweb p span{
+    // white-space: pre;
+    // white-space: nowrap;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin: 1rem;
+    
+   
+}
+.listweb p a{
+    display: block;
+    text-align: center;
+    // content: attr(data-text);
+}
+.listweb p,.sitedesc{
+    margin:1rem 0;
+}
+.listweb  a{
+    padding: .5rem;
+    line-height: 2rem;
+}
+#printgoup{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: $front;
+    color: $back;
+    // padding: 0 1rem;
+}
+#printgoup2,#menu2 > div.printtitle > h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: $back;
+    color: $front;
+}
+#webin{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 0!important;
+}
+.listweb{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.listweb  a{
+    font-size: 1rem;
+    background-color: $front!important;
+    color: $back;
+    // border-radius: 50%;
+    // padding: 15px;
+}
+a:hover, .mail:hover, #printgoup:hover, #printgoup2:hover{
+    color:#e9a30c;
+}
+
+@media screen and (min-width: 600px) {
+    .listweb p a{
+        display: inline;
+        // content: attr(data-text);
+    }
+}

@@ -1,0 +1,145 @@
+.print,.web{
+    padding: 1rem;
+    margin-top:2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.print,.gallery{
+    background-color: $front;
+    color: $back;
+    margin: auto ;
+}
+#menu,#menu2{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    //  align-items:;
+    // align-items: flex-end;
+    justify-content: space-between;
+//   align-items: flex-end;
+}
+
+#menu h2, #menu h2 a,#menu2 h2, #menu2 h2 a{
+   font-size: 2rem;
+}
+.gallery{
+    max-width: 900px;
+}
+.galsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.galdesc h2, .print h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin:0;
+
+}
+.galdesc h2{
+    font-size: 2rem;
+}
+.galdesc p{
+    width: 100%;
+    text-align: left;
+    // display: none;
+        font-family: 'Roboto Mono', monospace;
+        margin:0;
+        // font-size: .7rem;
+}
+.galpics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.indimg{
+    width: calc(1/3*100% - (1 - 1/3)*.6rem);
+    margin: .2rem;
+}
+.galsection{
+margin-top: 1rem;
+}
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+@media screen and (min-width: 600px) {
+    .indimg{
+        width: calc(1/4*100% - (1 - 1/4)*.6rem);
+        margin: .2rem;
+    }
+    .galdesc h2, .print h2{
+        // text-align: left!important;
+    }
+    .galdesc p, .print h2{
+        // text-align: let;
+        // display: inline-block;
+    }
+
+}
+// h2{
+//     margin:0;
+//     font-size: 2rem;
+//     font-family: 'Oleo Script Swash Caps', cursive;
+// }
+// .imagecont{
+//     display: flex;
+//     flex-flow: row wrap;
+//     text-align: center;
+//     justify-content: flex-start;
+//    align-content: center;
+//     align-items:flex-end;
+
+//  }
+
+// .indimg{
+//     width: calc(1/3*100% - (1 - 1/3)*4px);
+//     // margin:.5rem;
+// }
+
+// .indimg > img{
+//     cursor: crosshair;
+//     // padding:0.25rem;
+// }
+
+// .indimg p{
+//     font-family: 'Roboto Mono', monospace;
+//     display: none;
+//     margin:0;
+// }
+
+// .frameit{
+//     // width: calc(1/2*100% - (1 - 1/2)*4px);
+//     align-self: center;
+//     // padding:1rem;
+//     }
+
+// .frameit h2{
+//     font-size: .8rem;    
+// }
+// button:focus {
+//     outline: 0px dotted;
+//     outline: 0px auto -webkit-focus-ring-color;
+// }
+
+//   @media screen and (min-width: 600px) {
+//     .indimg{
+//         width: calc(1/3*100% - (1 - 1/3)*4px);
+//     }
+//     .indimg p{
+//         display: inline-block;
+//         margin:0;
+//         }
+//     .frameit h2{
+//         font-size: 2rem;
+//     }
+//   }
