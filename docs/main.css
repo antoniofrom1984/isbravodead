@@ -741,6 +741,10 @@ footer p, form, .print, .imagecont, .galsection, .galpics {
   margin-top: 1rem;
 }
 
+.half {
+  width: 45%;
+}
+
 button:focus {
   outline: 0px dotted;
   outline: 0px auto -webkit-focus-ring-color;
@@ -804,6 +808,33 @@ button:focus {
 
 a:hover, .mail:hover, #printgoup:hover, #printgoup2:hover {
   color: #e9a30c;
+}
+
+.listweb p {
+  position: relative;
+}
+
+.preview:hover:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.preview1:hover:after {
+  content: url(img/thumbluk_tn.jpg);
+}
+
+.preview2:hover:after {
+  content: url(img/thumbend1_tn.jpg);
+}
+
+.preview3:hover:after {
+  content: url(img/thumbgen_tn.jpg);
+}
+
+.preview4:hover:after {
+  content: url(img/thumbend2_tn.jpg);
 }
 
 @media screen and (min-width: 600px) {
