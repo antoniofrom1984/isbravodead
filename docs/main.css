@@ -509,6 +509,10 @@ html, body, .modal-content {
   color: #1a1a1a;
 }
 
+img {
+  vertical-align: middle !important;
+}
+
 .container {
   max-width: 100%;
   display: flex;
@@ -717,6 +721,17 @@ footer p, form, .print, .imagecont, .galsection, .galpics {
 
 .galdesc h2 {
   font-size: 2rem;
+}
+
+h5 {
+  margin-left: 0 !important;
+  text-align: right;
+}
+
+h5 a {
+  font-size: 0.4713333333rem;
+  color: #e9a30c !important;
+  font-family: "Roboto Mono", monospace;
 }
 
 .galdesc p {

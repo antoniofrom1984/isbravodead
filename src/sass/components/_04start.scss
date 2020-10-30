@@ -9,6 +9,9 @@ html,body,.modal-content{
   background-color: $back;
   color: $front;
 }
+img{
+  vertical-align: middle!important;
+}
 .container{
   max-width: 100%;
   display: flex;

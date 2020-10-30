@@ -302,6 +302,58 @@
 		"oAP": "/docs/img/.gitignore",
 		"oF": 0
 		},
+	"/docs/img/04bed.jpeg": {
+		"ft": 16384,
+		"iS": 48684,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/04bed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/docs/img/04shirt.jpeg": {
+		"ft": 16384,
+		"iS": 75650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/docs/img/04shirt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/docs/img/04thumb.png": {
+		"ft": 32768,
+		"iS": 255643,
+		"oA": 0,
+		"oAP": "/docs/img/04thumb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/docs/img/04web_oldmap.png": {
+		"ft": 32768,
+		"iS": 943875,
+		"oA": 0,
+		"oAP": "/docs/img/04web_oldmap.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/docs/img/1backpack_SugarCube.jpeg": {
 		"ft": 16384,
 		"iS": 61640,
