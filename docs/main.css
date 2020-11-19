@@ -624,7 +624,7 @@ form a:visited, #printgoup {
 
 nav, main, footer, .container, .headerimg, #desc, footer img,
 footer p, form, .print, .imagecont, .galsection, .galpics {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -680,6 +680,7 @@ footer p, form, .print, .imagecont, .galsection, .galpics {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  padding-bottom: 2.5rem;
 }
 
 .print, .gallery {
